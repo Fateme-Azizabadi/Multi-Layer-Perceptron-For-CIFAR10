@@ -16,7 +16,7 @@ The graphs show that a smaller batch size usually leads to faster learning and c
 **So, We choose Batch size = 64 for the rest of the process.** 
   
  
- ## **Activation Function *
+ ## **Activation Function**
  
 
 We try to use Tanh and ReLu as activation functions.
@@ -71,7 +71,7 @@ For classification, Cross Entropy is better suited than MSE. (The underlying ass
 
 **The network's performance is better if we use cross-entropy as a cost function.** 
  
- ## **Optimizers*
+ ## **Optimizers**
 
 *SGD+Momentum
 *SGD
@@ -98,14 +98,14 @@ SGD performs frequent updates with high variance, which causes the objective fun
 Unlike gradient descent optimizers, which adapt weights statically with a constant learning rate in all parameters, adaptive optimizers have more internal flexibility. ADAM is an optimizer that has the characteristics of SGD, but if the dataset is small. It is faster. Also, this optimizer requires less memory and has fewer fluctuations.
 
 **Advantages and disadvantages of ADAM Optimizer**
-*Advantages :
+* Advantages :
 1. Can handle sparse gradients, especially on Noisy datasets.
 2. The default hyperparameter values ​​work well for most problems.
 3. It is computationally efficient.
 4. It requires little memory, so it is memory efficient.
 5. It works well on large datasets.
 
-*Disadvantages:
+* Disadvantages:
 1. ADAM does not converge to an optimal solution in some contexts (this is the motivation for AMSGrad).
 2. ADAM may have weight loss issues (discussed in AdamW).
 3. Recent optimization algorithms are faster and better.
