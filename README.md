@@ -73,9 +73,9 @@ For classification, Cross Entropy is better suited than MSE. (The underlying ass
  
  ## **Optimizers**
 
-*SGD+Momentum
-*SGD
-*ADAM
+* SGD+Momentum
+* SGD
+* ADAM
 
 **Why is SGD+Momentum used?**
 
@@ -112,6 +112,6 @@ Unlike gradient descent optimizers, which adapt weights statically with a consta
 
 The simulation results for the case where the Batch Size is equal to 64 (the best case of part A) and the ReLU activation function (the best case of Part B), and the Cross-Entropy cost function (the best case of Part C) and the SGD optimizer, SGD+Momentum, and ADAM are brought in the code file. 
 
- ![](https://github.com/Fateme-Azizabadi/Multi-Layer-Perceptron-For-CIFAR10/blob/main/Images/Final Model.png)
+ ![](https://github.com/Fateme-Azizabadi/Multi-Layer-Perceptron-For-CIFAR10/blob/main/Images/Final%20Model.png)
  
  
